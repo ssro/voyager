@@ -11,6 +11,7 @@ require (
 	github.com/JamesClonk/vultr v2.0.0+incompatible // indirect
 	github.com/NYTimes/gziphandler v1.1.1 // indirect
 	github.com/PuerkitoBio/purell v1.1.1 // indirect
+	github.com/StackExchange/wmi v0.0.0-20181212234831-e0a55b97c705 // indirect
 	github.com/akamai/AkamaiOPEN-edgegrid-golang v0.0.0-20190507234932-3d34267ed5e4 // indirect
 	github.com/appscode/go v0.0.0-20190424183524-60025f1135c9
 	github.com/appscode/hello-grpc v0.0.0-20190207041230-eea009cbf42e
@@ -19,6 +20,7 @@ require (
 	github.com/aws/aws-sdk-go v1.14.12
 	github.com/benbjohnson/clock v0.0.0-20161215174838-7dc76406b6d3
 	github.com/cloudflare/cloudflare-go v0.8.5 // indirect
+	github.com/codeskyblue/go-sh v0.0.0-20190412065543-76bd3d59ff27
 	github.com/coreos/bbolt v1.3.2 // indirect
 	github.com/coreos/etcd v3.3.13+incompatible // indirect
 	github.com/coreos/go-semver v0.3.0 // indirect
@@ -36,6 +38,7 @@ require (
 	github.com/evanphx/json-patch v4.2.0+incompatible
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-ini/ini v1.40.0 // indirect
+	github.com/go-ole/go-ole v1.2.4 // indirect
 	github.com/go-openapi/jsonpointer v0.19.0 // indirect
 	github.com/go-openapi/jsonreference v0.19.0 // indirect
 	github.com/go-openapi/spec v0.17.2
@@ -80,6 +83,7 @@ require (
 	github.com/prometheus/haproxy_exporter v0.0.0-00010101000000-000000000000
 	github.com/russross/blackfriday v1.5.2 // indirect
 	github.com/sergi/go-diff v0.0.0-20170118131230-24e2351369ec // indirect
+	github.com/shirou/gopsutil v2.18.12+incompatible
 	github.com/soheilhy/cmux v0.0.0-20181025144106-8a8ea3c53959 // indirect
 	github.com/spf13/afero v1.1.2
 	github.com/spf13/cobra v0.0.3
