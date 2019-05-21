@@ -1,4 +1,4 @@
-# bitbucket.org/ww/goautoneg v0.0.0-20120707110453-75cd24fc2f2c
+# bitbucket.org/ww/goautoneg v0.0.0-00010101000000-000000000000 => gomodules.xyz/goautoneg v0.0.0-20120707110453-a547fc61f48d
 bitbucket.org/ww/goautoneg
 # cloud.google.com/go v0.34.0
 cloud.google.com/go/compute/metadata

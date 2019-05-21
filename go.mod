@@ -3,7 +3,7 @@ module github.com/appscode/voyager
 go 1.12
 
 require (
-	bitbucket.org/ww/goautoneg v0.0.0-20120707110453-75cd24fc2f2c // indirect
+	bitbucket.org/ww/goautoneg v0.0.0-00010101000000-000000000000 // indirect
 	cloud.google.com/go v0.34.0
 	github.com/Azure/azure-sdk-for-go v21.3.0+incompatible
 	github.com/Azure/go-ansiterm v0.0.0-20170929234023-d6e3b3328b78 // indirect
@@ -141,6 +141,7 @@ require (
 )
 
 replace (
+	bitbucket.org/ww/goautoneg => gomodules.xyz/goautoneg v0.0.0-20120707110453-a547fc61f48d
 	github.com/akamai/AkamaiOPEN-edgegrid-golang => github.com/tamalsaha/AkamaiOPEN-edgegrid-golang v0.7.5-0.20190507234932-3d34267ed5e4
 	github.com/grpc-ecosystem/grpc-gateway => github.com/appscode/grpc-gateway v1.3.1-ac
 	github.com/prometheus/haproxy_exporter => github.com/appscode/haproxy_exporter v0.7.2-0.20190508003714-b4abf52090e2
