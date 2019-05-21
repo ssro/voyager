@@ -9,6 +9,9 @@ require (
 	github.com/Azure/go-ansiterm v0.0.0-20170929234023-d6e3b3328b78 // indirect
 	github.com/Azure/go-autorest v11.1.0+incompatible
 	github.com/JamesClonk/vultr v2.0.0+incompatible // indirect
+	github.com/Masterminds/glide v0.13.2 // indirect
+	github.com/Masterminds/semver v1.4.2 // indirect
+	github.com/Masterminds/vcs v1.13.0 // indirect
 	github.com/NYTimes/gziphandler v1.1.1 // indirect
 	github.com/PuerkitoBio/purell v1.1.1 // indirect
 	github.com/StackExchange/wmi v0.0.0-20181212234831-e0a55b97c705 // indirect
@@ -19,7 +22,9 @@ require (
 	github.com/appscode/pat v0.0.0-20170521084856-48ff78925b79
 	github.com/aws/aws-sdk-go v1.14.12
 	github.com/benbjohnson/clock v0.0.0-20161215174838-7dc76406b6d3
+	github.com/bmatcuk/doublestar v1.1.1 // indirect
 	github.com/cloudflare/cloudflare-go v0.8.5 // indirect
+	github.com/codegangsta/cli v1.20.0 // indirect
 	github.com/codeskyblue/go-sh v0.0.0-20190412065543-76bd3d59ff27
 	github.com/coreos/bbolt v1.3.2 // indirect
 	github.com/coreos/etcd v3.3.13+incompatible // indirect
@@ -70,7 +75,7 @@ require (
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mitchellh/go-ps v0.0.0-20170309133038-4fdf99ab2936
 	github.com/moul/http2curl v1.0.0
-	github.com/onsi/ginkgo v1.7.0
+	github.com/onsi/ginkgo v1.8.0
 	github.com/onsi/gomega v1.4.1
 	github.com/orcaman/concurrent-map v0.0.0-20190314100340-2693aad1ed75
 	github.com/ovh/go-ovh v0.0.0-20181109152953-ba5adb4cf014 // indirect
@@ -83,6 +88,7 @@ require (
 	github.com/prometheus/haproxy_exporter v0.0.0-00010101000000-000000000000
 	github.com/russross/blackfriday v1.5.2 // indirect
 	github.com/sergi/go-diff v0.0.0-20170118131230-24e2351369ec // indirect
+	github.com/sgotti/glide-vc v0.1.0 // indirect
 	github.com/shirou/gopsutil v2.18.12+incompatible
 	github.com/soheilhy/cmux v0.0.0-20181025144106-8a8ea3c53959 // indirect
 	github.com/spf13/afero v1.1.2
@@ -105,10 +111,12 @@ require (
 	go.uber.org/atomic v1.4.0 // indirect
 	go.uber.org/multierr v1.1.0 // indirect
 	go.uber.org/zap v1.10.0 // indirect
-	golang.org/x/crypto v0.0.0-20190506204251-e1dfcc566284 // indirect
-	golang.org/x/net v0.0.0-20190503192946-f4e77d36d62c // indirect
+	golang.org/x/crypto v0.0.0-20190513172903-22d7a77e9e5f // indirect
+	golang.org/x/net v0.0.0-20190520210107-018c4d40a106 // indirect
 	golang.org/x/oauth2 v0.0.0-20190402181905-9f3314589c9a
+	golang.org/x/sys v0.0.0-20190520201301-c432e742b0af // indirect
 	golang.org/x/text v0.3.2 // indirect
+	golang.org/x/tools v0.0.0-20190520220859-26647e34d3c0 // indirect
 	gomodules.xyz/version v0.0.0-20190507203204-7cec7ee542d3 // indirect
 	google.golang.org/api v0.0.0-20180621000839-3639d6d93f37
 	google.golang.org/genproto v0.0.0-20190502173448-54afdca5d873 // indirect
