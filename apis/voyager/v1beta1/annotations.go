@@ -258,8 +258,8 @@ const (
 
 	// https://github.com/appscode/voyager/issues/1210
 	// http://cbonte.github.io/haproxy-dconv/1.8/configuration.html#agent-check
-	AgentPort  = EngressKey + "/" + "agent-port"
-	AgentInter = EngressKey + "/" + "agent-inter"
+	AgentPort     = EngressKey + "/" + "agent-port"
+	AgentInterval = EngressKey + "/" + "agent-interval"
 )
 
 var (

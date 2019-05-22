@@ -176,8 +176,8 @@ var _ = Describe("With Agent Check", func() {
 	Describe("With Correct Port and Customized Agent Inter", func() {
 		BeforeEach(func() {
 			svcAnnotation = map[string]string{
-				api.AgentPort:  "5555",
-				api.AgentInter: "1s",
+				api.AgentPort:     "5555",
+				api.AgentInterval: "1s",
 			}
 		})
 

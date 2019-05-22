@@ -80,4 +80,4 @@ Below is the full list of supported annotations:
 | [ingress.appscode.com/check](/docs/guides/ingress/configuration/health-check.md) | bool | `false` |
 | [ingress.appscode.com/check-port](/docs/guides/ingress/configuration/health-check.md) | int | |
 | [ingress.appscode.com/agent-port](/docs/guides/ingress/configuration/agent-check.md) | int | |
-| [ingress.appscode.com/agent-inter](/docs/guides/ingress/configuration/agent-check.md) | string | "2000ms" |
+| [ingress.appscode.com/agent-interval](/docs/guides/ingress/configuration/agent-check.md) | string | "2000ms" |

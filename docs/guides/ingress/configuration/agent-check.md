@@ -14,7 +14,7 @@ section_menu_id: guides
 
 # Agent Check
 
-[haproxy-agent-check](http://cbonte.github.io/haproxy-dconv/1.8/configuration.html#5.2-agent-check) can be enabled for a specific backend server by applying the agent server port in `ingress.appscode.com/agent-port` annotations to the corresponding service. You can also add [agent-inter](http://cbonte.github.io/haproxy-dconv/1.8/configuration.html#agent-inter) in `ingress.appscode.com/agent-inter` annotations to the same service, which defaults to 2000ms if not mentioned.
+[haproxy-agent-check](http://cbonte.github.io/haproxy-dconv/1.8/configuration.html#5.2-agent-check) can be enabled for a specific backend server by applying the agent server port in `ingress.appscode.com/agent-port` annotations to the corresponding service. You can also add [agent-inter](http://cbonte.github.io/haproxy-dconv/1.8/configuration.html#agent-inter) in `ingress.appscode.com/agent-interval` annotations to the same service, which defaults to 2000ms if not mentioned.
 
 ## Example
 
@@ -90,9 +90,9 @@ Now we need to annotate the backend service to enable agent-check for that backe
 $ kubectl annotate svc test-server ingress.appscode.com/agent-port="5555"
 ```
 
-To change the default agent-inter value, annotate the same service with:
+To change the default agent-interval value, annotate the same service with:
 ```console
-$ kubectl annotate svc test-server ingress.appscode.com/agent-inter="3s"
+$ kubectl annotate svc test-server ingress.appscode.com/agent-interval="3s"
 ```
 
 ## Time Format

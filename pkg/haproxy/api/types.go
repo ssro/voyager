@@ -217,7 +217,7 @@ type Endpoint struct {
 	TLSOption       string
 	SendProxy       string
 	AgentPort       string
-	AgentInter      string
+	AgentInterval   string
 }
 
 type UserList struct {
