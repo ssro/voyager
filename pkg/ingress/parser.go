@@ -267,12 +267,14 @@ type hostBinder struct {
 	Address string
 	Port    int
 }
+
 type httpInfo struct {
 	OffloadSSL  bool
 	ALPNOptions string
 	Proto       string
 	Hosts       map[string][]*hpi.HTTPPath
 }
+
 type tcpInfo struct {
 	OffloadSSL  bool
 	ALPNOptions string
@@ -317,6 +319,7 @@ func (c *controller) generateConfig() error {
 		Limit: &hpi.Limit{
 			Connection: c.Ingress.LimitConnections(),
 		},
+		HardStopAfter: c.Ingress.HardStopAfter(),
 	}
 
 	if val := c.Ingress.LimitRPM(); val > 0 {
