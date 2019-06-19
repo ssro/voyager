@@ -7,13 +7,18 @@ require (
 	github.com/Azure/azure-sdk-for-go v21.3.0+incompatible
 	github.com/Azure/go-autorest v11.1.0+incompatible
 	github.com/JamesClonk/vultr v2.0.0+incompatible // indirect
+	github.com/Masterminds/glide v0.13.2 // indirect
+	github.com/Masterminds/semver v1.4.2 // indirect
+	github.com/Masterminds/vcs v1.13.0 // indirect
 	github.com/akamai/AkamaiOPEN-edgegrid-golang v0.0.0-20190507234932-3d34267ed5e4 // indirect
 	github.com/appscode/go v0.0.0-20190523031839-1468ee3a76e8
 	github.com/appscode/hello-grpc v0.0.0-20190207041230-eea009cbf42e
 	github.com/appscode/pat v0.0.0-20170521084856-48ff78925b79
 	github.com/aws/aws-sdk-go v1.14.12
 	github.com/benbjohnson/clock v0.0.0-20161215174838-7dc76406b6d3
+	github.com/bmatcuk/doublestar v1.1.1 // indirect
 	github.com/cloudflare/cloudflare-go v0.8.5 // indirect
+	github.com/codegangsta/cli v1.20.0 // indirect
 	github.com/coreos/prometheus-operator v0.29.0
 	github.com/cpuguy83/go-md2man v1.0.10 // indirect
 	github.com/dimchansky/utfbom v1.1.0 // indirect
@@ -40,6 +45,7 @@ require (
 	github.com/prometheus/client_golang v0.9.3-0.20190127221311-3c4408c8b829
 	github.com/prometheus/common v0.4.0
 	github.com/prometheus/haproxy_exporter v0.0.0-00010101000000-000000000000
+	github.com/sgotti/glide-vc v0.1.0 // indirect
 	github.com/smartystreets/assertions v0.0.0-20190401211740-f487f9de1cd3 // indirect
 	github.com/spf13/afero v1.2.2
 	github.com/spf13/cobra v0.0.3
@@ -52,7 +58,11 @@ require (
 	github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415 // indirect
 	github.com/xeipuuv/gojsonschema v0.0.0-20190423132807-354ad34c2300 // indirect
 	github.com/xenolf/lego v2.5.0+incompatible
+	golang.org/x/crypto v0.0.0-20190618222545-ea8f1a30c443 // indirect
+	golang.org/x/net v0.0.0-20190619014844-b5b0513f8c1b // indirect
 	golang.org/x/oauth2 v0.0.0-20190402181905-9f3314589c9a
+	golang.org/x/sys v0.0.0-20190618155005-516e3c20635f // indirect
+	golang.org/x/tools v0.0.0-20190618233249-04b924abaa25 // indirect
 	gomodules.xyz/cert v1.0.0
 	google.golang.org/api v0.4.0
 	google.golang.org/genproto v0.0.0-20190502173448-54afdca5d873 // indirect
